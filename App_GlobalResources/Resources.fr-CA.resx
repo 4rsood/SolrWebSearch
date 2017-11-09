@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abstract" xml:space="preserve">
+    <value>&lt;b&gt;Résumé :&lt;/b&gt;</value>
+  </data>
+  <data name="allWords" xml:space="preserve">
+    <value>Tous les mots </value>
+  </data>
+  <data name="anyWord" xml:space="preserve">
+    <value>L'un des mots</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Auteur </value>
+  </data>
+  <data name="blankdate" xml:space="preserve">
+    <value>(&lt;abbr title="Les quatres chiffres de l'année"&gt;aaaa&lt;/abbr&gt;-&lt;abbr title="Les deux chiffres du mois"&gt;mm&lt;/abbr&gt;-&lt;abbr title="Les deux chiffres du jour"&gt;jj&lt;/abbr&gt;)</value>
+  </data>
+  <data name="branches" xml:space="preserve">
+    <value>Directions</value>
+  </data>
+  <data name="canadaSite" xml:space="preserve">
+    <value>Site&amp;nbsp;du&amp;nbsp;Canada</value>
+  </data>
+  <data name="colon" xml:space="preserve">
+    <value>&amp;nbsp;:</value>
+  </data>
+  <data name="comingsoon" xml:space="preserve">
+    <value>En développement</value>
+  </data>
+  <data name="committees" xml:space="preserve">
+    <value>Comités</value>
+  </data>
+  <data name="contactUs" xml:space="preserve">
+    <value>Contactez-nous</value>
+  </data>
+  <data name="containing" xml:space="preserve">
+    <value>Contenant :</value>
+  </data>
+  <data name="copyRight" xml:space="preserve">
+    <value>Avis de confidentialité, Avis concernant les langues officielles, Avis concernant l'établissement d'hyperliens, Avis sur le droit d'auteur</value>
+  </data>
+  <data name="corporateTools" xml:space="preserve">
+    <value>Outils ministériels</value>
+  </data>
+  <data name="countMsg1" xml:space="preserve">
+    <value>Affichage de </value>
+  </data>
+  <data name="countMsg2" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="countMsg3" xml:space="preserve">
+    <value> des meilleurs </value>
+  </data>
+  <data name="countMsg4" xml:space="preserve">
+    <value>des </value>
+  </data>
+  <data name="countMsg5" xml:space="preserve">
+    <value> documents</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date </value>
+  </data>
+  <data name="dateCreated" xml:space="preserve">
+    <value>Date de création :</value>
+  </data>
+  <data name="dateLastUpdated" xml:space="preserve">
+    <value>Date de modification :</value>
+  </data>
+  <data name="dateModified" xml:space="preserve">
+    <value>Date de modification :</value>
+  </data>
+  <data name="datePublished" xml:space="preserve">
+    <value>Date de publication :</value>
+  </data>
+  <data name="daterange" xml:space="preserve">
+    <value>Période :</value>
+  </data>
+  <data name="dateReviewed" xml:space="preserve">
+    <value>Date de vérification :</value>
+  </data>
+  <data name="doingResearch" xml:space="preserve">
+    <value>Faire des recherches</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="employeeResources" xml:space="preserve">
+    <value>Ressources pour l'employé</value>
+  </data>
+  <data name="employees" xml:space="preserve">
+    <value>Employés</value>
+  </data>
+  <data name="enterprisesearcha" xml:space="preserve">
+    <value>Recherche avancée</value>
+  </data>
+  <data name="enterprisesearchb" xml:space="preserve">
+    <value>Recherche simple</value>
+  </data>
+  <data name="entiredoc" xml:space="preserve">
+    <value>Document complet</value>
+  </data>
+  <data name="errorMessage" xml:space="preserve">
+    <value>&lt;h5&gt;Il y a une erreur dans votre requête. Veuillez vérifier votre requête et essayer de nouveau.&lt;/h5&gt;</value>
+  </data>
+  <data name="financeDepartment" xml:space="preserve">
+    <value>Ministère des Finances Canada</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="ft" xml:space="preserve">
+    <value>Texte complet</value>
+  </data>
+  <data name="gcDepartmentsAgencies" xml:space="preserve">
+    <value>Ministère et organismes GC</value>
+  </data>
+  <data name="gcsites" xml:space="preserve">
+    <value>Sites GC</value>
+  </data>
+  <data name="goc" xml:space="preserve">
+    <value>Gouvernement du Canada</value>
+  </data>
+  <data name="gocsites" xml:space="preserve">
+    <value>Sites GC</value>
+  </data>
+  <data name="goToTopOfPage" xml:space="preserve">
+    <value>Aller au haut de la page</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="homePSA" xml:space="preserve">
+    <value>AFPC</value>
+  </data>
+  <data name="importantNotices" xml:space="preserve">
+    <value>Avis importants</value>
+  </data>
+  <data name="imt" xml:space="preserve">
+    <value>Gestion et technologie de l'information</value>
+  </data>
+  <data name="infositehome" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="keywordContents" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>fr</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lastModified" xml:space="preserve">
+    <value>Mise à jour :</value>
+  </data>
+  <data name="links" xml:space="preserve">
+    <value>Liens</value>
+  </data>
+  <data name="networkdrives" xml:space="preserve">
+    <value>Disques réseaux</value>
+  </data>
+  <data name="newsRoom" xml:space="preserve">
+    <value>Salle des médias</value>
+  </data>
+  <data name="noDocuments" xml:space="preserve">
+    <value>Aucun document n'a été trouvé.</value>
+  </data>
+  <data name="on" xml:space="preserve">
+    <value>Sur :</value>
+  </data>
+  <data name="phoneBook" xml:space="preserve">
+    <value>Bottin</value>
+  </data>
+  <data name="printVersion" xml:space="preserve">
+    <value>Version imprimable</value>
+  </data>
+  <data name="psadept" xml:space="preserve">
+    <value>Agence de gestion des ressources humaines de la fonction publique du Canada</value>
+  </data>
+  <data name="publiserviceSite" xml:space="preserve">
+    <value>Site Publiservice </value>
+  </data>
+  <data name="Query" xml:space="preserve">
+    <value>&lt;b&gt;Recherche :&lt;/b&gt;&amp;nbsp;</value>
+  </data>
+  <data name="range" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="rdims" xml:space="preserve">
+    <value>SGDDI</value>
+  </data>
+  <data name="relatedLinks" xml:space="preserve">
+    <value>Liens pertinents</value>
+  </data>
+  <data name="research" xml:space="preserve">
+    <value>Recherches</value>
+  </data>
+  <data name="reset" xml:space="preserve">
+    <value>Reprendre</value>
+  </data>
+  <data name="returnTo" xml:space="preserve">
+    <value>Retourner au</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="searchCriteria" xml:space="preserve">
+    <value>&lt;b&gt;Critères de recherche : &lt;/b&gt;</value>
+  </data>
+  <data name="searchfor" xml:space="preserve">
+    <value>Chercher :</value>
+  </data>
+  <data name="searchin" xml:space="preserve">
+    <value>Dans :</value>
+  </data>
+  <data name="searchNow" xml:space="preserve">
+    <value>Envoyez</value>
+  </data>
+  <data name="searchResults" xml:space="preserve">
+    <value>&lt;H2&gt;Résultats de recherche&lt;/H2&gt;</value>
+  </data>
+  <data name="searchType" xml:space="preserve">
+    <value>&lt;b&gt;Type de recherche : &lt;/b&gt;</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site :</value>
+  </data>
+  <data name="skipAllMenus" xml:space="preserve">
+    <value>&amp;Eacute;viter tous les menus</value>
+  </data>
+  <data name="skipFirstMenu" xml:space="preserve">
+    <value>&amp;Eacute;viter le premier menu</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="TBS" xml:space="preserve">
+    <value>Secrétariat du Conseil du Trésor du Canada</value>
+  </data>
+  <data name="thisPhrase" xml:space="preserve">
+    <value>Cette expression </value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Titre </value>
+  </data>
+  <data name="titletag" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="tkd" xml:space="preserve">
+    <value>Titre, mots clés et description</value>
+  </data>
+  <data name="tkdft" xml:space="preserve">
+    <value>Titre, mots clés, description et texte complet</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="tools" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="top" xml:space="preserve">
+    <value>Haut</value>
+  </data>
+  <data name="topOfPage" xml:space="preserve">
+    <value>Haut de la page</value>
+  </data>
+  <data name="tryAgain1" xml:space="preserve">
+    <value>SVP&amp;nbsp;</value>
+  </data>
+  <data name="tryAgain2" xml:space="preserve">
+    <value> encore.</value>
+  </data>
+  <data name="advanced" xml:space="preserve">
+    <value>Avancée</value>
+  </data>
+  <data name="basic" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="errorInvalidStartDate" xml:space="preserve">
+    <value>Date de début non valide pour la période.</value>
+  </data>
+  <data name="errorInvalidEndDate" xml:space="preserve">
+    <value>Date de fin non valide pour la période.</value>
+  </data>
+  <data name="errorYouMustEnterQuery" xml:space="preserve">
+    <value>Erreur : Veuillez entrer un ou plusieurs mots dans le champ de recherche avant de cliquer sur le bouton Recherche.</value>
+  </data>
+  <data name="errorThreeCharWithWild" xml:space="preserve">
+    <value>Votre requête doit contenir au moins 3 caractères avec un caractère de remplacement.</value>
+  </data>
+  <data name="errorEndDateMustBeSmallerThanStartDate" xml:space="preserve">
+    <value>La date spécifiée dans le champ « À » doit être ultérieure à la date spécifiée dans le champ « De ».  </value>
+  </data>
+  <data name="errorDontPlayWithURL" xml:space="preserve">
+    <value>S.V.P. ne changez pas les paramètres dans l'adresse URL.</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="allFormat" xml:space="preserve">
+    <value>Tous les formats</value>
+  </data>
+  <data name="FileFormat" xml:space="preserve">
+    <value>Format de fichiers</value>
+  </data>
+  <data name="Repository" xml:space="preserve">
+    <value>Répertoire :</value>
+  </data>
+  <data name="noTitle" xml:space="preserve">
+    <value>Aucun titre disponible</value>
+  </data>
+  <data name="best300" xml:space="preserve">
+    <value>des meilleurs 300 documents</value>
+  </data>
+  <data name="results" xml:space="preserve">
+    <value>Résultats&amp;nbsp;</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>des</value>
+  </data>
+  <data name="filePathTooLong" xml:space="preserve">
+    <value>Le chemin d’accès à ce fichier est trop long.  Veuillez contacter Solutions TriNet au 995-0000 pour obtenir de l’aide pour accéder à ce fichier.</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Chemin </value>
+  </data>
+  <data name="openFolder" xml:space="preserve">
+    <value>Ouvrir dossier</value>
+  </data>
+  <data name="NotFoundInDB" xml:space="preserve">
+    <value>Votre nom d'usager ne se trouve pas dans la base de données. Veuillez contacter Solutions TriNet au 995-0000 pour de plus amples renseignements.</value>
+  </data>
+  <data name="SearchError" xml:space="preserve">
+    <value>Une erreur s'est produite. S.V.P. essayez de nouveau. Il se peut que votre requête soit trop vague et ne puisse être complétée dans un délai raisonnable. Si l'erreur persiste, veuillez contacter Solutions TriNet au 995-0000.</value>
+  </data>
+  <data name="SearchErrorStopWords" xml:space="preserve">
+    <value>Tous les termes sont non valides, trop courts, trop communs ou incorrectement formatés. Essayez de changer vos termes de requête et de soumettre une nouvelle recherche. Si vous soupçonnez qu'il y a un problème avec la recherche, veuillez signaler cette erreur a Solutions TriNet au 995-0000.</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>&lt;strong&gt;Trier par :&lt;/strong&gt;</value>
+  </data>
+  <data name="Relevancy" xml:space="preserve">
+    <value>Pertinence</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Inconnu </value>
+  </data>
+  <data name="didyoumean" xml:space="preserve">
+    <value>Essayez avec cette orthographe </value>
+  </data>
+  <data name="advancedsearch" xml:space="preserve">
+    <value>Recherche avancée</value>
+  </data>
+  <data name="basicsearch" xml:space="preserve">
+    <value>Recherche simple</value>
+  </data>
+  <data name="enterprisesearch" xml:space="preserve">
+    <value>Recherche</value>
+  </data>
+  <data name="searchhelp" xml:space="preserve">
+    <value>Aide de recherche</value>
+  </data>
+  <data name="infositecsb" xml:space="preserve">
+    <value>Infosite et Site Intranet de l'Agence</value>
+  </data>
+  <data name="infositefin" xml:space="preserve">
+    <value>Infosite</value>
+  </data>
+  <data name="internetfinorcsb" xml:space="preserve">
+    <value>Site internet de FIN</value>
+  </data>
+  <data name="internetcpsa" xml:space="preserve">
+    <value>Site internet AFPC</value>
+  </data>
+  <data name="internettbs" xml:space="preserve">
+    <value>Site internet SCT</value>
+  </data>
+  <data name="AnyLanguage" xml:space="preserve">
+    <value>Toutes</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="LanguageField" xml:space="preserve">
+    <value>Langue </value>
+  </data>
+  <data name="searchfaqlink" xml:space="preserve">
+    <value>http://intradev/infosite/search/es_faq-f.asp</value>
+  </data>
+  <data name="searchhelplink_intranet" xml:space="preserve">
+    <value>http://intradev/infosite/search/es_help-f.asp</value>
+  </data>
+  <data name="searchhelplink_internet" xml:space="preserve">
+    <value>/search-recherche/cmn/help-aide-fra.asp</value>
+  </data>
+  <data name="activeXerror" xml:space="preserve">
+    <value>Impossible d'ouvrir le document SGDDI.  Assurez-vous de répondre \"oui\" lorsque vous fureteur vous demande si il peut utiliser un control ActiveX non-signé.  Si vous avez répondu \"oui\" et que vous recevez toujours ce message d'erreur, veuillez appeller Solutions TriNet au 995-0000.  Si vous avez répondu \"non\" par erreur, vous devez rafraichir la page.</value>
+  </data>
+  <data name="fileFormatHelp" xml:space="preserve">
+    <value>* Certains documents peuvent être classifiés sous plus d'un format de fichier.  Par exemple, un courriel qui contient une pièce jointe de format PDF sera classé sous Outlook et PDF.</value>
+  </data>
+  <data name="ResultsPerPage" xml:space="preserve">
+    <value>Résultats par page</value>
+  </data>
+  <data name="altgocdeptimg" xml:space="preserve">
+    <value>Ministère des Finances Canada - Gouvernement du Canada</value>
+  </data>
+  <data name="gocdeptimg" xml:space="preserve">
+    <value>~/InfoSite/phase1/images/fin/goc-dept_f.gif</value>
+  </data>
+  <data name="refine" xml:space="preserve">
+    <value>Pr&amp;eacute;ciser par</value>
+  </data>
+  <data name="searchRes" xml:space="preserve">
+    <value>R&amp;eacute;sultats de recherche</value>
+  </data>
+  <data name="typeQuery" xml:space="preserve">
+    <value>Tapez votre recherche ci-dessous </value>
+  </data>
+  <data name="documentsFound" xml:space="preserve">
+    <value>répondants aux critères de recherche.</value>
+  </data>
+  <data name="notices" xml:space="preserve">
+    <value>Notices</value>
+  </data>
+  <data name="clear" xml:space="preserve">
+    <value>[Effacer]</value>
+  </data>
+  <data name="homepageTbs" xml:space="preserve">
+    <value>http://intranet/tbs-sct/intranet/index_f.aspx</value>
+  </data>
+  <data name="advancedsearchlink" xml:space="preserve">
+    <value>query-recherche-fra.aspx?t=a</value>
+  </data>
+  <data name="basicsearchlink" xml:space="preserve">
+    <value>query-recherche-fra.aspx?t=b</value>
+  </data>
+  <data name="dateFormatPattern" xml:space="preserve">
+    <value>(aaaa)([-/])(mm)([-/])(jj)</value>
+  </data>
+  <data name="mimetype" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="subrepository" xml:space="preserve">
+    <value>Sous répertoire :</value>
+  </data>
+  <data name="FIN_toggle" xml:space="preserve">
+    <value>Recherche CSB</value>
+  </data>
+  <data name="TBS_toggle" xml:space="preserve">
+    <value>Recherche Finance</value>
+  </data>
+  <data name="FIN_toggleAcronym" xml:space="preserve">
+    <value>TBS</value>
+  </data>
+  <data name="TBS_toggleAcronym" xml:space="preserve">
+    <value>FIN</value>
+  </data>
+  <data name="homepageTbsWeb" xml:space="preserve">
+    <value>http://www.tbs-sct.gc.ca/tbs-sct/index-fra.asp</value>
+  </data>
+  <data name="RDIMS_TBSSCT" xml:space="preserve">
+    <value>SGDI</value>
+  </data>
+  <data name="para_category" xml:space="preserve">
+    <value>Catégorie</value>
+  </data>
+  <data name="para_subject" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="para_type" xml:space="preserve">
+    <value>Type de doc.</value>
+  </data>
+  <data name="tbsWebToggle" xml:space="preserve">
+    <value>index-eng.asp</value>
+  </data>
+  <data name="languageSuffix" xml:space="preserve">
+    <value>fra</value>
+  </data>
+  <data name="calendar" xml:space="preserve">
+    <value>calendar-fr.js</value>
+  </data>
+  <data name="creator" xml:space="preserve">
+    <value>Gouvernement du Canada, Conseil du Trésor du Canada, Secrétariat, Secrétariat du Conseil du Trésor du Canada</value>
+  </data>
+  <data name="subjectCategory" xml:space="preserve">
+    <value>Gestion et technologie de l'information</value>
+  </data>
+  <data name="inValidDate" xml:space="preserve">
+    <value>Erreur : La date ou le format de date de votre interrogation est inexact ( doit être AAAA-MM-JJ). Essayer de modifier le ou les termes de votre interrogation et lancez à nouveau votre recherche. Si vous soupçonnez l’existence d’un problème, veuillez le signaler. </value>
+  </data>
+  <data name="inValidDateRange" xml:space="preserve">
+    <value>Période invalide</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value />
+  </data>
+  <data name="premiers" xml:space="preserve">
+    <value> premiers </value>
+  </data>
+  <data name="languageID" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="noResults" xml:space="preserve">
+    <value>Aucun document ne correspond aux critères de recherche</value>
+  </data>
+  <data name="padding" xml:space="preserve">
+    <value>406 px</value>
+  </data>
+  <data name="FirstPage" xml:space="preserve">
+    <value>Première page des résultats</value>
+  </data>
+  <data name="LastPage" xml:space="preserve">
+    <value>Dernière page des résultats</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Page suivante des résultats</value>
+  </data>
+  <data name="PreviousPage" xml:space="preserve">
+    <value>Page précédente des résultats</value>
+  </data>
+  <data name="ResultPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="ResultPage2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResultPage3" xml:space="preserve">
+    <value>des résultats</value>
+  </data>
+  <data name="displayOptions" xml:space="preserve">
+    <value>Afficher les options</value>
+  </data>
+  <data name="fourDigitYear" xml:space="preserve">
+    <value>Les quatres chiffres de l'année</value>
+  </data>
+  <data name="refineSearch" xml:space="preserve">
+    <value>Préciser</value>
+  </data>
+  <data name="and" xml:space="preserve">
+    <value>&amp;nbsp;et&amp;nbsp;</value>
+  </data>
+  <data name="searchTermsUsed" xml:space="preserve">
+    <value>Critères de recherche : </value>
+  </data>
+  <data name="GSALang" xml:space="preserve">
+    <value>lang_fr</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>&amp;nbsp;ou&amp;nbsp;</value>
+  </data>
+  <data name="documentDate" xml:space="preserve">
+    <value>&lt;strong&gt;Date : &lt;/strong&gt;</value>
+  </data>
+  <data name="homepage" xml:space="preserve">
+    <value>http://intranet.canada.ca/index-eng.asp</value>
+  </data>
+  <data name="firstResultsPage" xml:space="preserve">
+    <value>Première page</value>
+  </data>
+  <data name="nextResultsPage" xml:space="preserve">
+    <value>Page suivante</value>
+  </data>
+  <data name="previousResultsPage" xml:space="preserve">
+    <value>Page précédente</value>
+  </data>
+  <data name="skipSearchNav" xml:space="preserve">
+    <value>Passer aux résultats de la recherche</value>
+  </data>
+  <data name="pageLabel" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="currentPage" xml:space="preserve">
+    <value>Page courante</value>
+  </data>
+  <data name="frontEnd" xml:space="preserve">
+    <value>GCIntranet-fr_frontend</value>
+  </data>
+  <data name="searchAction" xml:space="preserve">
+    <value>query-recherche-fra.aspx</value>
+  </data>
+  <data name="searchAction2" xml:space="preserve">
+    <value>query-recherche2-fra.aspx</value>
+  </data>
+  <data name="source" xml:space="preserve">
+    <value>Source :</value>
+  </data>
+  <data name="url" xml:space="preserve">
+    <value>URL :</value>
+  </data>
+  <data name="searchSite" xml:space="preserve">
+    <value>Rechercher dans intranet.canada.ca</value>
+  </data>
+  <data name="blogs" xml:space="preserve">
+    <value>Blogs</value>
+  </data>
+  <data name="bookmarks" xml:space="preserve">
+    <value>Signets</value>
+  </data>
+  <data name="categories" xml:space="preserve">
+    <value>Catégories</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="discussion" xml:space="preserve">
+    <value>Discussion</value>
+  </data>
+  <data name="events" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="files" xml:space="preserve">
+    <value>Fichiers</value>
+  </data>
+  <data name="forums" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="groups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="ideas" xml:space="preserve">
+    <value>Idées</value>
+  </data>
+  <data name="members" xml:space="preserve">
+    <value>Membres</value>
+  </data>
+  <data name="pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="photos" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="polls" xml:space="preserve">
+    <value>Sondages</value>
+  </data>
+  <data name="projects" xml:space="preserve">
+    <value>Projets</value>
+  </data>
+  <data name="talks" xml:space="preserve">
+    <value>Talks</value>
+  </data>
+  <data name="wirepost" xml:space="preserve">
+    <value>Wirepost</value>
+  </data>
+  <data name="users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="gcconnex" xml:space="preserve">
+    <value>&lt;h4&gt;GCconnex :&lt;/h4&gt;</value>
+  </data>
+  <data name="gcpedia" xml:space="preserve">
+    <value>&lt;h4&gt;GCpédia :&lt;/h4&gt;</value>
+  </data>
+  <data name="bysource" xml:space="preserve">
+    <value>&amp;nbsp;Par source :</value>
+  </data>
+  <data name="filterResults" xml:space="preserve">
+    <value>Filtrer vos résultats&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="resetFilters" xml:space="preserve">
+    <value>Réinitialiser les filtres</value>
+  </data>
+  <data name="bygcconnex" xml:space="preserve">
+    <value>Par GCconnex :</value>
+  </data>
+  <data name="bygcpedia" xml:space="preserve">
+    <value>Par GCpédia :</value>
+  </data>
+  <data name="gcpedia2" xml:space="preserve">
+    <value>&amp;nbsp;GCpédia</value>
+  </data>
+  <data name="all2" xml:space="preserve">
+    <value>&amp;nbsp;Tous</value>
+  </data>
+  <data name="GCconnexfrontEnd" xml:space="preserve">
+    <value>GCconnex-fr_frontend</value>
+  </data>
+  <data name="GCintranetfrontEnd" xml:space="preserve">
+    <value>GCIntranet-fr_frontend</value>
+  </data>
+  <data name="GCpediafrontEnd" xml:space="preserve">
+    <value>GCpedia-fr_frontend</value>
+  </data>
+  <data name="searchAction3" xml:space="preserve">
+    <value>query-recherche3-fra.aspx</value>
+  </data>
+  <data name="gcdirectory" xml:space="preserve">
+    <value>&lt;h2&gt;GCannuaire :&lt;/h2&gt;</value>
+  </data>
+  <data name="gcdirectory2" xml:space="preserve">
+    <value>&amp;nbsp;GCannuaire</value>
+  </data>
+  <data name="GCdirectoryfrontEnd" xml:space="preserve">
+    <value>GCdGCdirectoryFr_frontend</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Vous ne trouvez pas ce que vous cherchez? Voir cette recherche sur </value>
+  </data>
+  <data name="department" xml:space="preserve">
+    <value>Ministère :</value>
+  </data>
+  <data name="organization" xml:space="preserve">
+    <value>Organisation :</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Téléphone :</value>
+  </data>
+  <data name="searchActionTest" xml:space="preserve">
+    <value>query-rechercheTest-fra.aspx</value>
+  </data>
+</root>

@@ -1,0 +1,1216 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/MasterPages/MasterPageGCconnex-fra.master.cs" Inherits="MasterPages_MasterPageGCconnex_fra" %>
+
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="fr" dir="ltr"><![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="fr" dir="ltr">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<head>
+    <link type="text/css" href="/cometchat/cometchatcss.php" rel="stylesheet" charset="utf-8">
+    <script type="text/javascript" src="/cometchat/cometchatjs.php" charset="utf-8"></script>
+    <title>Recherche : GCconnex</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="http://lb.gcconnex.ca/mod/wet4_theme/graphics/homescreen.png">
+    <link rel="icon" href="http://lb.gcconnex.ca/graphics/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64 128x128" type="image/svg+xml" href="http://lb.gcconnex.ca/graphics/favicon.svg">
+    <link rel="icon" sizes="16x16" type="image/png" href="http://lb.gcconnex.ca/graphics/favicon-16.png">
+    <link rel="icon" sizes="32x32" type="image/png" href="http://lb.gcconnex.ca/graphics/favicon-32.png">
+    <link rel="icon" sizes="64x64" type="image/png" href="http://lb.gcconnex.ca/graphics/favicon-64.png">
+    <link rel="icon" sizes="128x128" type="image/png" href="http://lb.gcconnex.ca/graphics/favicon-128.png">
+    <link rel="manifest" href="http://lb.gcconnex.ca/manifest.json">
+    <!--[if lt IE 9]>
+        <script src="http://lb.gcconnex.ca/vendors/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://lb.gcconnex.ca/cache/1495636941/default/css/elgg">
+    <!--[if gt IE 8]>
+        <link rel="stylesheet" href="http://lb.gcconnex.ca/cache/1495636941/default/css/ie" />
+    <![endif]-->
+
+    <script>
+var elgg = {"config":{"lastcache":1495636941,"viewtype":"default","simplecache_enabled":1},"security":{"token":{"__elgg_ts":1496253248,"__elgg_token":"xOTLyh3XwqcnwnBA69OfXw"}},"session":{"user":null}};
+    </script>
+    <script src="http://lb.gcconnex.ca/cache/1495636941/default/js/elgg/require_config"></script>
+    <script src="http://lb.gcconnex.ca/vendors/requirejs/require-2.1.10.min.js"></script>
+    <script src="http://lb.gcconnex.ca/vendors/jquery/jquery-1.11.0.min.js"></script>
+    <script src="http://lb.gcconnex.ca/vendors/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://lb.gcconnex.ca/vendors/jquery/jquery-ui-1.10.4.min.js"></script>
+    <script src="http://lb.gcconnex.ca/cache/1495636941/default/js/elgg"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="http://lb.gcconnex.ca/mod/wet4/views/default/css/awesome/font-awesome.min.css" type="text/css" />
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+    wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Meta data -->
+
+    <meta name="description" content="Ouvrir une session : GCconnex" />
+    <meta name="dcterms.title" content="Ouvrir une session : GCconnex" />
+    <meta name="dcterms.creator" content="GCconnex" />
+    <meta name="dcterms.subject" title="scheme" content="Ouvrir une session : GCconnex" />
+    <meta name="dcterms.language" title="ISO639-2" content="fr" />
+    <meta name="gcctitle" content="Ouvrir une session : GCconnex" />
+    <link href="http://lb.gcconnex.ca/mod/wet4/graphics/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Meta data-->
+    <!--[if lt IE 9]>
+
+            <script src="http://lb.gcconnex.ca/mod/wet4/views/default/js/ie8-wet-boew.min.js"></script>
+            <![endif]-->
+    <!--[if lte IE 9]>
+
+
+    <![endif]-->
+
+    <noscript><link rel="stylesheet" href="./css/noscript.css" /></noscript>
+    <script type="text/javascript" src="http://lb.gcconnex.ca/mod/custom_index_widgets/vendors/swfobject.js"></script>
+    <script type="text/javascript">
+/*
+ * jQuery Media Plugin for converting elements into rich media content.
+ *
+ * Examples and documentation at: http://malsup.com/jquery/media/
+ * Copyright (c) 2007-2008 M. Alsup
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * @author: M. Alsup
+ * @version: 0.92 (24-SEP-2009)
+ * @requires jQuery v1.1.2 or later
+ * $Id: jquery.media.js 2460 2007-07-23 02:53:15Z malsup $
+ *
+ * Supported Media Players:
+ *	- Flash
+ *	- Quicktime
+ *	- Real Player
+ *	- Silverlight
+ *	- Windows Media Player
+ *	- iframe
+ *
+ * Supported Media Formats:
+ *	 Any types supported by the above players, such as:
+ *	 Video: asf, avi, flv, mov, mpg, mpeg, mp4, qt, smil, swf, wmv, 3g2, 3gp
+ *	 Audio: aif, aac, au, gsm, mid, midi, mov, mp3, m4a, snd, rm, wav, wma
+ *	 Other: bmp, html, pdf, psd, qif, qtif, qti, tif, tiff, xaml
+ *
+ * Thanks to Mark Hicken and Brent Pedersen for helping me debug this on the Mac!
+ * Thanks to Dan Rossi for numerous bug reports and code bits!
+ * Thanks to Skye Giordano for several great suggestions!
+ * Thanks to Richard Connamacher for excellent improvements to the non-IE behavior!
+ */
+;(function($) {
+
+/**
+ * Chainable method for converting elements into rich media.
+ *
+ * @param options
+ * @param callback fn invoked for each matched element before conversion
+ * @param callback fn invoked for each matched element after conversion
+ */
+$.fn.media = function(options, f1, f2) {
+	if (options == 'undo') {
+		return this.each(function() {
+			var $this = $(this);
+			var html = $this.data('media.origHTML');
+			if (html)
+				$this.replaceWith(html);
+		});
+	}
+
+	return this.each(function() {
+		if (typeof options == 'function') {
+			f2 = f1;
+			f1 = options;
+			options = {};
+		}
+		var o = getSettings(this, options);
+		// pre-conversion callback, passes original element and fully populated options
+		if (typeof f1 == 'function') f1(this, o);
+
+		var r = getTypesRegExp();
+		var m = r.exec(o.src.toLowerCase()) || [''];
+
+		o.type ? m[0] = o.type : m.shift();
+		for (var i=0; i < m.length; i++) {
+			fn = m[i].toLowerCase();
+			if (isDigit(fn[0])) fn = 'fn' + fn; // fns can't begin with numbers
+			if (!$.fn.media[fn])
+				continue;  // unrecognized media type
+			// normalize autoplay settings
+			var player = $.fn.media[fn+'_player'];
+			if (!o.params) o.params = {};
+			if (player) {
+				var num = player.autoplayAttr == 'autostart';
+				o.params[player.autoplayAttr || 'autoplay'] = num ? (o.autoplay ? 1 : 0) : o.autoplay ? true : false;
+			}
+			var $div = $.fn.media[fn](this, o);
+
+			$div.css('backgroundColor', o.bgColor).width(o.width);
+
+			if (o.canUndo) {
+				var $temp = $('<div></div>').append(this);
+				$div.data('media.origHTML', $temp.html()); // store original markup
+			}
+
+			// post-conversion callback, passes original element, new div element and fully populated options
+			if (typeof f2 == 'function') f2(this, $div[0], o, player.name);
+			break;
+		}
+	});
+};
+
+/**
+ * Non-chainable method for adding or changing file format / player mapping
+ * @name mapFormat
+ * @param String format File format extension (ie: mov, wav, mp3)
+ * @param String player Player name to use for the format (one of: flash, quicktime, realplayer, winmedia, silverlight or iframe
+ */
+$.fn.media.mapFormat = function(format, player) {
+	if (!format || !player || !$.fn.media.defaults.players[player]) return; // invalid
+	format = format.toLowerCase();
+	if (isDigit(format[0])) format = 'fn' + format;
+	$.fn.media[format] = $.fn.media[player];
+	$.fn.media[format+'_player'] = $.fn.media.defaults.players[player];
+};
+
+// global defautls; override as needed
+$.fn.media.defaults = {
+	standards:  false,      // use object tags only (no embeds for non-IE browsers)
+	canUndo:    true,       // tells plugin to store the original markup so it can be reverted via: $(sel).mediaUndo()
+	width:		400,
+	height:		400,
+	autoplay:	0,		   	// normalized cross-player setting
+	bgColor:	'#ffffff', 	// background color
+	params:		{ wmode: 'transparent'},	// added to object element as param elements; added to embed element as attrs
+	attrs:		{},			// added to object and embed elements as attrs
+	flvKeyName: 'file', 	// key used for object src param (thanks to Andrea Ercolino)
+	flashvars:	{},			// added to flash content as flashvars param/attr
+	flashVersion:	'7',	// required flash version
+	expressInstaller: null,	// src for express installer
+
+	// default flash video and mp3 player (@see: http://jeroenwijering.com/?item=Flash_Media_Player)
+	flvPlayer:	 'http://lb.gcconnex.ca/mod/custom_index_widgets/vendors/player.swf',
+	mp3Player:	 'http://lb.gcconnex.ca/mod/custom_index_widgets/vendors/player.swf',
+
+	// @see http://msdn2.microsoft.com/en-us/library/bb412401.aspx
+	silverlight: {
+		inplaceInstallPrompt: 'true', // display in-place install prompt?
+		isWindowless:		  'true', // windowless mode (false for wrapping markup)
+		framerate:			  '24',	  // maximum framerate
+		version:			  '0.9',  // Silverlight version
+		onError:			  null,	  // onError callback
+		onLoad:			      null,   // onLoad callback
+		initParams:			  null,	  // object init params
+		userContext:		  null	  // callback arg passed to the load callback
+	}
+};
+
+// Media Players; think twice before overriding
+$.fn.media.defaults.players = {
+	flash: {
+		name:		 'flash',
+		title:		 'Flash',
+		types:		 'flv,mp3,swf',
+		mimetype:	 'application/x-shockwave-flash',
+		pluginspage: 'http://www.adobe.com/go/getflashplayer',
+		ieAttrs: {
+			classid:  'clsid:d27cdb6e-ae6d-11cf-96b8-444553540000',
+			type:	  'application/x-oleobject',
+			codebase: 'http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=' + $.fn.media.defaults.flashVersion
+		}
+	},
+	quicktime: {
+		name:		 'quicktime',
+		title:		 'QuickTime',
+		mimetype:	 'video/quicktime',
+		pluginspage: 'http://www.apple.com/quicktime/download/',
+		types:		 'aif,aiff,aac,au,bmp,gsm,mov,mid,midi,mpg,mpeg,mp4,m4a,psd,qt,qtif,qif,qti,snd,tif,tiff,wav,3g2,3gp',
+		ieAttrs: {
+			classid:  'clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B',
+			codebase: 'http://www.apple.com/qtactivex/qtplugin.cab'
+		}
+	},
+	realplayer: {
+		name:		  'real',
+		title:		  'RealPlayer',
+		types:		  'ra,ram,rm,rpm,rv,smi,smil',
+		mimetype:	  'audio/x-pn-realaudio-plugin',
+		pluginspage:  'http://www.real.com/player/',
+		autoplayAttr: 'autostart',
+		ieAttrs: {
+			classid: 'clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA'
+		}
+	},
+	winmedia: {
+		name:		  'winmedia',
+		title:		  'Windows Media',
+		types:		  'asx,asf,avi,wma,wmv',
+		mimetype:	  $.browser.mozilla && isFirefoxWMPPluginInstalled() ? 'application/x-ms-wmp' : 'application/x-mplayer2',
+		pluginspage:  'http://www.microsoft.com/Windows/MediaPlayer/',
+		autoplayAttr: 'autostart',
+		oUrl:		  'url',
+		ieAttrs: {
+			classid:  'clsid:6BF52A52-394A-11d3-B153-00C04F79FAA6',
+			type:	  'application/x-oleobject'
+		}
+	},
+	// special cases
+	iframe: {
+		name:  'iframe',
+		types: 'html,pdf'
+	},
+	silverlight: {
+		name:  'silverlight',
+		types: 'xaml'
+	}
+};
+
+//
+//	everything below here is private
+//
+
+
+// detection script for FF WMP plugin (http://www.therossman.org/experiments/wmp_play.html)
+// (hat tip to Mark Ross for this script)
+function isFirefoxWMPPluginInstalled() {
+	var plugs = navigator.plugins;
+	for (i = 0; i < plugs.length; i++) {
+		var plugin = plugs[i];
+		if (plugin['filename'] == 'np-mswmp.dll')
+			return true;
+	}
+	return false;
+}
+
+var counter = 1;
+
+for (var player in $.fn.media.defaults.players) {
+	var types = $.fn.media.defaults.players[player].types;
+	$.each(types.split(','), function(i,o) {
+		if (isDigit(o[0])) o = 'fn' + o;
+		$.fn.media[o] = $.fn.media[player] = getGenerator(player);
+		$.fn.media[o+'_player'] = $.fn.media.defaults.players[player];
+	});
+};
+
+function getTypesRegExp() {
+	var types = '';
+	for (var player in $.fn.media.defaults.players) {
+		if (types.length) types += ',';
+		types += $.fn.media.defaults.players[player].types;
+	};
+	return new RegExp('\\.(' + types.replace(/,/ig,'|') + ')\\b');
+};
+
+function getGenerator(player) {
+	return function(el, options) {
+		return generate(el, options, player);
+	};
+};
+
+function isDigit(c) {
+	return '0123456789'.indexOf(c) > -1;
+};
+
+// flatten all possible options: global defaults, meta, option obj
+function getSettings(el, options) {
+	options = options || {};
+	var $el = $(el);
+	var cls = el.className || '';
+	// support metadata plugin (v1.0 and v2.0)
+	var meta = $.metadata ? $el.metadata() : $.meta ? $el.data() : {};
+	meta = meta || {};
+	var w = meta.width	 || parseInt(((cls.match(/w:(\d+)/)||[])[1]||0));
+	var h = meta.height || parseInt(((cls.match(/h:(\d+)/)||[])[1]||0));
+
+	if (w) meta.width	= w;
+	if (h) meta.height = h;
+	if (cls) meta.cls = cls;
+
+	var a = $.fn.media.defaults;
+	var b = options;
+	var c = meta;
+
+	var p = { params: { bgColor: options.bgColor || $.fn.media.defaults.bgColor } };
+	var opts = $.extend({}, a, b, c);
+	$.each(['attrs','params','flashvars','silverlight'], function(i,o) {
+		opts[o] = $.extend({}, p[o] || {}, a[o] || {}, b[o] || {}, c[o] || {});
+	});
+
+	if (typeof opts.caption == 'undefined') opts.caption = $el.text();
+
+	// make sure we have a source!
+	opts.src = opts.src || $el.attr('href') || $el.attr('src') || 'unknown';
+	return opts;
+};
+
+//
+//	Flash Player
+//
+
+// generate flash using SWFObject library if possible
+$.fn.media.swf = function(el, opts) {
+	if (!window.SWFObject && !window.swfobject) {
+		// roll our own
+		if (opts.flashvars) {
+			var a = [];
+			for (var f in opts.flashvars)
+				a.push(f + '=' + opts.flashvars[f]);
+			if (!opts.params) opts.params = {};
+			opts.params.flashvars = a.join('&');
+		}
+		return generate(el, opts, 'flash');
+	}
+
+	var id = el.id ? (' id="'+el.id+'"') : '';
+	var cls = opts.cls ? (' class="' + opts.cls + '"') : '';
+	var $div = $('<div' + id + cls + '>');
+
+	// swfobject v2+
+	if (window.swfobject) {
+		$(el).after($div).appendTo($div);
+		if (!el.id) el.id = 'movie_player_' + counter++;
+
+		// replace el with swfobject content
+		swfobject.embedSWF(opts.src, el.id, opts.width, opts.height, opts.flashVersion,
+			opts.expressInstaller, opts.flashvars, opts.params, opts.attrs);
+	}
+	// swfobject < v2
+	else {
+		$(el).after($div).remove();
+		var so = new SWFObject(opts.src, 'movie_player_' + counter++, opts.width, opts.height, opts.flashVersion, opts.bgColor);
+		if (opts.expressInstaller) so.useExpressInstall(opts.expressInstaller);
+
+		for (var p in opts.params)
+			if (p != 'bgColor') so.addParam(p, opts.params[p]);
+		for (var f in opts.flashvars)
+			so.addVariable(f, opts.flashvars[f]);
+		so.write($div[0]);
+	}
+
+	if (opts.caption) $('<div>').appendTo($div).html(opts.caption);
+	return $div;
+};
+
+// map flv and mp3 files to the swf player by default
+$.fn.media.flv = $.fn.media.mp3 = function(el, opts) {
+	var src = opts.src;
+	var player = /\.mp3\b/i.test(src) ? $.fn.media.defaults.mp3Player : $.fn.media.defaults.flvPlayer;
+	var key = opts.flvKeyName;
+	src = encodeURIComponent(src);
+	opts.src = player;
+	opts.src = opts.src + '?'+key+'=' + (src);
+	var srcObj = {};
+	srcObj[key] = src;
+	opts.flashvars = $.extend({}, srcObj, opts.flashvars );
+	return $.fn.media.swf(el, opts);
+};
+
+//
+//	Silverlight
+//
+$.fn.media.xaml = function(el, opts) {
+	if (!window.Sys || !window.Sys.Silverlight) {
+		if ($.fn.media.xaml.warning) return;
+		$.fn.media.xaml.warning = 1;
+		alert('You must include the Silverlight.js script.');
+		return;
+	}
+
+	var props = {
+		width: opts.width,
+		height: opts.height,
+		background: opts.bgColor,
+		inplaceInstallPrompt: opts.silverlight.inplaceInstallPrompt,
+		isWindowless: opts.silverlight.isWindowless,
+		framerate: opts.silverlight.framerate,
+		version: opts.silverlight.version
+	};
+	var events = {
+		onError: opts.silverlight.onError,
+		onLoad: opts.silverlight.onLoad
+	};
+
+	var id1 = el.id ? (' id="'+el.id+'"') : '';
+	var id2 = opts.id || 'AG' + counter++;
+	// convert element to div
+	var cls = opts.cls ? (' class="' + opts.cls + '"') : '';
+	var $div = $('<div' + id1 + cls + '>');
+	$(el).after($div).remove();
+
+	Sys.Silverlight.createObjectEx({
+		source: opts.src,
+		initParams: opts.silverlight.initParams,
+		userContext: opts.silverlight.userContext,
+		id: id2,
+		parentElement: $div[0],
+		properties: props,
+		events: events
+	});
+
+	if (opts.caption) $('<div>').appendTo($div).html(opts.caption);
+	return $div;
+};
+
+//
+// generate object/embed markup
+//
+function generate(el, opts, player) {
+	var $el = $(el);
+	var o = $.fn.media.defaults.players[player];
+
+	if (player == 'iframe') {
+		var o = $('<iframe' + ' width="' + opts.width + '" height="' + opts.height + '" >');
+		o.attr('src', opts.src);
+		o.css('backgroundColor', o.bgColor);
+	}
+	else if ($.browser.msie) {
+		var a = ['<object width="' + opts.width + '" height="' + opts.height + '" '];
+		for (var key in opts.attrs)
+			a.push(key + '="'+opts.attrs[key]+'" ');
+		for (var key in o.ieAttrs || {}) {
+			var v = o.ieAttrs[key];
+			if (key == 'codebase' && window.location.protocol == 'https:')
+				v = v.replace('http','https');
+			a.push(key + '="'+v+'" ');
+		}
+		a.push('></ob'+'ject'+'>');
+		var p = ['<param name="' + (o.oUrl || 'src') +'" value="' + opts.src + '">'];
+		for (var key in opts.params)
+			p.push('<param name="'+ key +'" value="' + opts.params[key] + '">');
+		var o = document.createElement(a.join(''));
+		for (var i=0; i < p.length; i++)
+			o.appendChild(document.createElement(p[i]));
+	}
+	else if (o.standards) {
+		// Rewritten to be standards compliant by Richard Connamacher
+		var a = ['<object type="' + o.mimetype +'" width="' + opts.width + '" height="' + opts.height +'"'];
+		if (opts.src) a.push(' data="' + opts.src + '" ');
+		a.push('>');
+		a.push('<param name="' + (o.oUrl || 'src') +'" value="' + opts.src + '">');
+		for (var key in opts.params) {
+			if (key == 'wmode' && player != 'flash') // FF3/Quicktime borks on wmode
+				continue;
+			a.push('<param name="'+ key +'" value="' + opts.params[key] + '">');
+		}
+		// Alternate HTML
+		a.push('<div><p><strong>'+o.title+' Required</strong></p><p>'+o.title+' is required to view this media. <a href="'+o.pluginspage+'">Download Here</a>.</p></div>');
+		a.push('</ob'+'ject'+'>');
+	}
+	 else {
+	        var a = ['<embed width="' + opts.width + '" height="' + opts.height + '" style="display:block"'];
+	        if (opts.src) a.push(' src="' + opts.src + '" ');
+	        for (var key in opts.attrs)
+	            a.push(key + '="'+opts.attrs[key]+'" ');
+	        for (var key in o.eAttrs || {})
+	            a.push(key + '="'+o.eAttrs[key]+'" ');
+	        for (var key in opts.params) {
+	            if (key == 'wmode' && player != 'flash') // FF3/Quicktime borks on wmode
+	            	continue;
+	            a.push(key + '="'+opts.params[key]+'" ');
+	        }
+	        a.push('></em'+'bed'+'>');
+	    }
+	// convert element to div
+	var id = el.id ? (' id="'+el.id+'"') : '';
+	var cls = opts.cls ? (' class="' + opts.cls + '"') : '';
+	var $div = $('<div' + id + cls + '>');
+	$el.after($div).remove();
+	($.browser.msie || player == 'iframe') ? $div.append(o) : $div.html(a.join(''));
+	if (opts.caption) $('<div>').appendTo($div).html(opts.caption);
+	return $div;
+};
+
+
+})(jQuery);
+
+
+
+    </script>
+
+    <!-- Google Analytics -->
+    <script type='text/javascript'>
+
+	(function(i,s,o,g,r,a,m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+		m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a,m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-29015462-1', {
+		cookieDomain: 'gcconnex.gc.ca'
+	});
+			ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body vocab='https://schema.org/' typeof='WebPage'>
+    <div class="elgg-page-messages container">
+        <ul class="elgg-system-messages custom-message list-unstyled mrgn-bttm-0" aria-live="assertive"><li class="hidden wb-invisible"></li></ul>
+    </div>
+
+
+    <ul id="wb-tphp">
+        <li class="wb-slc">
+            <a class="wb-sl" href="#wb-cont">Passer au contenu principal</a>
+        </li>
+
+        <li class="wb-slc visible-sm visible-md visible-lg">
+            <a class="wb-sl" href="#wb-info">Passer à « Informations sur le site »</a>
+        </li>
+
+
+    </ul>
+
+    <div class="elgg-page elgg-page-default">
+        <header role="banner">
+
+
+
+            <!-- <div class="elgg-inner">-->
+            <!-- </div>-->
+            <div id="wb-bnr" class="container">
+
+
+            </div>
+
+
+            <div id="app-brand">
+                <div class="container">
+                    <div class="row">
+                        <section class="col-lg-2 col-md-2 col-xs-8">
+                            <div class="app-name">
+                                <a href="http://lb.gcconnex.ca/">
+                                    <span><span class="bold-gc">GC</span>connex</span>
+                                </a>
+                            </div>
+                        </section>
+                        <section class="col-lg-6 col-md-5 hidden-sm hidden-xs">
+                            <ul id="" class="pull-left list-unstyled mrgn-bttm-0">
+                                <li class="pull-left tool-link">
+                                    <a href="http://www.gcpedia.gc.ca/wiki/?setlang=fr">
+                                        <span class="bold-gc">GC</span>pédia
+                                    </a>
+                                </li>
+                                <li class="pull-left tool-link">
+                                    <a href="http://intranet.canada.ca/index-fra.asp?utm_source=gcconnex&utm_medium=gctools-banner&utm_campaign=generic">
+                                        <span class="bold-gc">GC</span>intranet
+                                    </a>
+                                </li>
+                                <li class="pull-left tool-link">
+                                    <a href="https://gcannuaire-gcdirectory.gc.ca/fr/GCA/?pgid=002">
+                                        <span class="bold-gc">GC</span>annuaire
+                                    </a>
+                                </li>
+                                <li class="pull-left tool-link">
+                                    <a href="https://gccollab.ca/">
+                                        <span class="bold-gc">GC</span>collab
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section id="wb-lng" class="visible-md visible-lg text-right col-sm-1">
+                            <h2 class="wb-inv">Sélection de la langue</h2>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-inline margin-bottom-none">
+                                        <li>
+                                            <div>
+
+                                                <div class="lang_toggle">
+                                                    <script type="text/javascript">
+		function form_submit(language_selected) {
+			//document.getElementById('formtoggle').submit();
+
+			var c_name = "connex_lang";
+			var c_value = document.cookie;
+			var c_start = c_value.indexOf(" " + c_name + "=");
+
+			//alert("check1");
+			if (c_start == -1){
+				c_start = c_value.indexOf(c_name + "=");
+			}
+
+			if (c_start == -1)
+			{
+				c_value = null;
+			} else {
+
+				c_start = c_value.indexOf("=", c_start) + 1;
+				var c_end = c_value.indexOf(";", c_start);
+				if (c_end == -1) {
+					c_end = c_value.length;
+				}
+				c_value = unescape(c_value.substring(c_start,c_end));
+			}
+
+			//alert("language is:" + c_value);
+			//set_cookie('cclang')
+
+			// modified by cyu - oct 1 2013
+			// first time you visit the site.. the cookie language is set to null
+			if (c_value == null)
+			{
+				//alert("null is caught..");
+				// we need to check what the user selected...
+				if (language_selected == "English")
+				{
+					set_cookie(c_name, "en");
+
+				} else
+				if (language_selected == "French")
+				{
+					set_cookie(c_name,"fr");
+				}
+
+				parent.location.reload(true);
+			} else {
+
+				if (c_value == "en"){
+					set_cookie(c_name,"fr");
+				} else {
+					set_cookie(c_name, "en");
+				}
+				parent.location.reload(true);
+			}
+		}
+		function set_cookie(name,value) {
+			var today = new Date();
+			today.setTime( today.getTime() );
+			expires = 1000 * 60 * 60 * 24;
+			var expires_date = new Date( today.getTime() + (expires) );
+			document.cookie = name + "=" +escape( value ) + ";path=/" + ";expires=" + expires_date.toGMTString();
+		}
+                                                    </script>
+                                                    <section id="wb-lng" class="visible-md visible-lg text-right">
+                                                        <h2 class="wb-inv">Sélection de la langue</h2>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+
+                                                                <ul class="list-inline margin-bottom-none">
+                                                                    <li>
+                                                                        <asp:Label ID="lblLang" runat="server" Visible="true"></asp:Label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="wb-mb-links col-xs-4 visible-sm visible-xs" id="wb-glb-mn">
+                            <h2>Recherche et menus</h2>
+                            <ul class="list-inline text-right chvrn mrgn-bttm-0">
+                                <li>
+                                    <a href="#mb-pnl" title="Recherche et menus" aria-controls="mb-pnl" class="overlay-lnk" role="button">
+                                        <span class="glyphicon glyphicon-search">
+                                            <span class="wb-inv">
+                                                Recherche et menus
+                                            </span>
+                                        </span>
+                                        <span class="glyphicon glyphicon-th-list"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="mb-pnl"></div>
+                        </section>
+
+
+
+                        <script>
+
+/// using javascript function to send the query and params to the intranet (gsa) to resolve the encoding issue
+function submit_search_query(selected_language) {
+
+    var url = "http://intranet.canada.ca/search-recherche/query-recherche-" + selected_language + ".aspx";
+    //var url = "http://192.168.1.80/gcconnex/blog/view/1077";
+    var encode_url = url + "?" + "q=" + escape(document.getElementById('wb-srch-q').value) + "&a=" + document.getElementById('a').value + "&s=" + document.getElementById('s').value + "&chk4=" + document.getElementById('chk4').value;
+    document.location.href = encode_url;
+}
+
+/// this will handle the enter key pressed when user does a search
+function handleKeyPress(e){
+    var key = e.keyCode || e.which;
+    if (key == 13) {
+        submit_search_query('fra');
+    }
+}
+
+
+                        </script>
+
+                        <!-- Basically just moved the search to this file to output the section -->
+
+                        <section id="wb-srch" class="col-sm-4 col-lg-3 text-right visible-md visible-lg">
+                            <h2> Recherche </h2>
+                            <div name="cse-search-box" class='form-inline'>
+                                <div class='form-group'>
+                                    <label for="wb-srch-q" class="wb-inv"> Recherche sur le site Web </label>
+                                    <input class="wb-srch-q form-control" name="q" onkeypress="handleKeyPress(event)" value="" size="21" maxlength="150" placeholder="Recherche sur GCconnex" id="wb-srch-q">
+
+
+                                    <input type="hidden" id="a" name="a" value="s">
+                                    <input type="hidden" id="s" name="s" value="3">
+                                    <input type="hidden" id="chk4" name="chk4" value="on">
+
+                                </div>
+                                <div class="form-group submit">
+                                    <!-- search button -->
+                                    <button type="button" class="btn-small" onclick="submit_search_query('fra')" name="wb-srch-sub">
+                                        <span class="glyphicon-search glyphicon"></span>
+                                        <span class="wb-inv"> Recherche </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+                <div class="container nvbar">
+                    <!-- container for screen reader text and list -->
+                    <h2>Menu des sujets</h2>
+                    <div class="row">
+
+                        <ul class=" list-inline menu"><li class="elgg-menu-item-newsfeed"><a href="http://lb.gcconnex.ca/newsfeed" class="elgg-menu-content">Fil de nouvelles</a></li><li class="elgg-menu-item-thewire"><a href="http://lb.gcconnex.ca/thewire/all" class="elgg-menu-content">Le fil</a></li><li class="elgg-menu-item-groups"><a href="http://lb.gcconnex.ca/groups/all?filter=popular" class="elgg-menu-content">Groupes</a></li><li class="elgg-menu-item-blog"><a href="http://lb.gcconnex.ca/blog/all" class="elgg-menu-content">Blogues</a></li><li class="elgg-menu-item-career"><a href="#career_menu" class="elgg-menu-content item elgg-menu-closed elgg-menu-parent">Carrière<span class="expicon glyphicon glyphicon-chevron-down"></span></a><ul class=" elgg-child-menu sm list-unstyled" id="" role=""><li class="elgg-menu-item-forum"><a href="http://lb.gcconnex.ca/groups/profile/7617072" class="elgg-menu-content">Carrefour d'emploi</a></li><li class="elgg-menu-item-mission-main"><a href="http://lb.gcconnex.ca/missions/main" class="elgg-menu-content">Plateforme de possibilités</a></li><li class="elgg-menu-item-jobs"><a href="http://jobs-emplois.gc.ca/index-fra.htm" target="_blank" class="elgg-menu-content">emplois.gc.ca <i class="fa fa-external-link mrgn-lft-sm"></i></a></li></ul></li><li><a href="#moreCont" class="item">Autres<span class="expicon glyphicon glyphicon-chevron-down"></span></a><ul class=" sm list-unstyled " id="moreCont" role="menu"><li class="elgg-menu-item-activity"><a href="http://lb.gcconnex.ca/activity" class="elgg-menu-content">Activité</a></li><li class="elgg-menu-item-help"><a href="http://lb.gcconnex.ca/mod/contactform/" class="elgg-menu-content">Aide / Contactez-nous</a></li><li class="elgg-menu-item-event-calendar"><a href="http://lb.gcconnex.ca/event_calendar/list/" class="elgg-menu-content">Calendrier d'événement</a></li><li class="elgg-menu-item-file"><a href="http://lb.gcconnex.ca/file/all" class="elgg-menu-content">Fichiers</a></li><li class="elgg-menu-item-photos"><a href="http://lb.gcconnex.ca/photos/all" class="elgg-menu-content">Images</a></li><li class="elgg-menu-item-members"><a href="http://lb.gcconnex.ca/members" class="elgg-menu-content">Membres</a></li><li class="elgg-menu-item-mission-main"><a href="http://lb.gcconnex.ca/missions/main" class="elgg-menu-content">Plateforme de possibilités</a></li><li class="elgg-menu-item-bookmarks"><a href="http://lb.gcconnex.ca/bookmarks/all" class="elgg-menu-content">Signets</a></li><li class="elgg-menu-item-polls"><a href="http://lb.gcconnex.ca/polls/all" class="elgg-menu-content">Sondage</a></li></ul></li></ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+            <div class='let_crawler_know_to_ignore_this'></div>
+
+        </header>
+
+        <div class="container">
+            <nav role="navigation" class="text-right col-md-12 mrgn-tp-sm user-z-index">
+                <style>
+                    .content {
+                        width: 960px;
+                        margin: 0 auto;
+                        overflow: hidden;
+                        z-index: 1000;
+                    }
+
+                    .active-links {
+                        /*  position: absolute; */
+                        right: 8px;
+                        top: 0;
+                        margin-bottom: 20px;
+                    }
+
+                    #container {
+                        /* width: 780px;*/
+                        margin: 0 auto;
+                        position: relative;
+                        z-index: 499;
+                        /* margin-bottom:40px; */
+                    }
+
+                    #topnav {
+                        text-align: right;
+                    }
+
+                    #session {
+                        cursor: pointer;
+                        display: inline-block;
+                        height: 20px;
+                        padding: 10px 12px;
+                        vertical-align: top;
+                        white-space: nowrap;
+                    }
+
+                        #session.active, #session:hover {
+                            background: rgba(255,255,255,0.1);
+                            color: fff;
+                        }
+
+
+
+                    a#signin-link em {
+                        font-size: 10px;
+                        font-style: normal;
+                        margin-right: 4px;
+                    }
+
+                    a#signin-link strong {
+                        text-decoration: none;
+                    }
+
+
+                    #signin-dropdown {
+                        background-color: #fff;
+                        box-shadow: 0 1px 2px #666666;
+                        -webkit-box-shadow: 0 1px 2px #666666;
+                        min-height: 200px;
+                        min-width: 360px;
+                        position: absolute;
+                        right: 0;
+                        display: none;
+                        z-index: 1000;
+                        margin-top: 15px;
+                        padding: 20px;
+                    }
+
+                        #signin-dropdown:first-child:after {
+                            left: -8px;
+                            top: 12px;
+                            width: 0;
+                            height: 0;
+                            border-left: 0;
+                            border-bottom: 5px solid transparent;
+                            border-top: 5px solid transparent;
+                            border-right: 8px solid #444;
+                            content: '';
+                        }
+
+                        #signin-dropdown form {
+                            cursor: pointer;
+                            text-align: left;
+                        }
+
+                        #signin-dropdown .textbox span {
+                            color: #BABABA;
+                        }
+
+                        #signin-dropdown .textbox input {
+                            width: 200px;
+                        }
+
+                    fieldset {
+                        border: none;
+                    }
+
+                    form.signin .textbox label {
+                        display: block;
+                        padding-bottom: 7px;
+                    }
+
+                    form.signin .textbox span {
+                        display: block;
+                    }
+
+                    form.signin p, form.signin span {
+                        color: #999;
+                        font-size: 11px;
+                        line-height: 18px;
+                    }
+
+                    form.signin .textbox input {
+                        border-bottom: 1px solid #333;
+                        border-left: 1px solid #000;
+                        border-right: 1px solid #333;
+                        border-top: 1px solid #000;
+                        color: #fff;
+                        -moz-border-radius: 3px;
+                        -webkit-border-radius: 3px;
+                        font: 13px Arial, Helvetica, sans-serif;
+                        padding: 6px 6px 4px;
+                    }
+
+                    form.signin .remb {
+                        padding: 9px 0;
+                        position: relative;
+                        text-align: right;
+                    }
+
+                        form.signin .remb .remember {
+                            text-align: left;
+                            position: absolute;
+                            left: 0;
+                        }
+
+                    .button {
+                        background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+                        background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+                        background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+                        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+                        border-color: #000;
+                        border-width: 1px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        color: #333;
+                        cursor: pointer;
+                        display: inline-block;
+                        padding: 4px 7px;
+                        margin: 0;
+                        font: 12px;
+                    }
+
+                        .button:hover {
+                            background: #ddd;
+                        }
+
+                    .login-menu {
+                        top: 35px;
+                    }
+
+                        .login-menu:before {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            left: 67%;
+                            top: -12px;
+                            width: 0;
+                            height: 0;
+                            border-left: 12px solid transparent;
+                            border-right: 12px solid transparent;
+                            border-bottom: 12px solid #666666;
+                            clear: both;
+                        }
+
+                        .login-menu:after {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            left: 67%;
+                            top: -12px;
+                            width: 0;
+                            height: 0;
+                            border-left: 12px solid transparent;
+                            border-right: 12px solid transparent;
+                            border-bottom: 12px solid #fff;
+                            clear: both;
+                        }
+                </style>
+
+
+                <script>
+$(document).ready(function () {
+    $('#signin-link').click(function () {
+        $('#signin-dropdown').toggle();
+        $('#session').toggleClass('active');
+        return false;
+    });
+
+    $('#signin-dropdown').click(function(e) {
+        e.stopPropagation();
+    });
+
+    $(document).click(function() {
+        $('#signin-dropdown').hide();
+        $('#session').removeClass('active');
+    });
+
+$('#signin-link').live('keydown', function(e) {
+    if (keyCode == 13) {
+        setTimeout(function(){$('#username').focus();},0);
+    }
+});
+
+    $('#signin-link').click(function(){
+        setTimeout(function(){$('#username').focus();},0);
+    });
+});
+                </script>
+
+                <div id="container">
+                    <div id="topnav">
+                        <div class="active-links">
+                            <div id="session">
+
+
+                                <a id="signin-link" href="#" style='text-decoration:none;'>
+                                    <span id="login_focus">
+                            </div>
+                            <div id="signin-dropdown" class='login-menu'>
+
+                                <form method="get" role="form" action="#">
+                                    <div class="form-group">
+                                        <label for='username'>Nom d'utilisateur ou courriel</label>
+                                        <input value="" type="text" name="username" placeholder="Nom d&#039;utilisateur ou courriel" id="username" class="form-control elgg-input-text form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for='password'>Mot de passe</label>
+                                        <input value="" autocapitalize="off" autocorrect="off" type="password" name="password" id="password" placeholder="Mot de passe" class="form-control elgg-input-password form-control">
+                                    </div>
+
+
+                                    <div class="checkbox">
+                                        <label class="mtm">
+                                            <input type="checkbox" name="persistent" value="true" />
+                                            Mémoriser mes renseignements
+                                        </label>
+                                    </div>
+                                    <button type="submit" type="submit" value="Ouvrir une session" class="elgg-button only-one-click btn btn-default btn-custom-cta">Ouvrir une session</button>
+
+                                    <a href="http://lb.gcconnex.ca/forgotpassword" class="col-xs-12 mrgn-tp-md">Mot de passe perdu?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </nav>
+        </div>
+
+
+        <main role="main" property="mainContentOfPage" class="container">
+            <asp:ContentPlaceHolder id="MainContent" runat="server" enableviewstate="False" />
+        </main>
+
+
+
+        <footer role="contentinfo" id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr">
+
+
+            <div class='let_crawler_know_to_ignore_this'>
+
+                <!-- This contains the bottom Footer Links -->
+                <div class="container">
+                    <nav role="navigation">
+                        <h2>About this site</h2>
+
+                        <div class="row">
+
+                            <section class="col-sm-3">
+                                <h3>
+                                    Infos
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="http://lb.gcconnex.ca/about-a_propos">Au sujet de GCconnex</a></li>
+
+                                    <li><a href="http://lb.gcconnex.ca/privacy-confidentialite">Politique de confidentialité</a></li>
+                                    <li><a href="http://lb.gcconnex.ca/terms">Modalités</a></li>
+
+                                </ul>
+                            </section>
+                            <section class="col-sm-3">
+                                <h3>
+                                    Aide
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="https://www.gcpedia.gc.ca/wiki/Aide_%C3%A0_l%27utilisateur/Voir_Tout " target="_blank">
+                                            Tutoriels de GCconnex
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://lb.gcconnex.ca/mod/contactform/">
+                                            Aide / Contactez-nous
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="col-sm-3">
+                                <h3>
+                                    OutilsGC
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="http://intranet.canada.ca/index-fra.asp?utm_source=gcconnex&utm_medium=gcconnex-footer&utm_campaign=generic">GCintranet</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.gcpedia.gc.ca/wiki/?setlang=fr">GCpédia</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://gcannuaire-gcdirectory.gc.ca/fr/GCA/?pgid=002">GCannuaire</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://gccollab.ca/">GCcollab</a>
+                                    </li>
+                                </ul>
+                            </section>
+                            <section class="col-sm-3">
+                                <h3>
+                                    Restez branchés
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://twitter.com/gcconnex">Twitter</a></li>
+                                </ul>
+                            </section>
+
+                        </div>
+                    </nav>
+                </div>
+
+
+
+                <!-- GC Info that will be at the bottom of the footer -->
+                <div class="brand">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-xs-12">
+                                <a href="https://www.canada.ca/fr.html">
+                                    <object type="image/svg+xml" tabindex="-1" data="http://lb.gcconnex.ca//mod/gcconnex_theme/graphics/sig-blk-fr.svg"></object>
+                                    <span class="wb-inv">Gouvernement du Canada</span>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 visible-sm visible-xs tofpg">
+                                <a href="#wb-cont">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+                            </div>
+                            <div class="col-xs-6 col-md-4 text-right">
+                                <object type="image/svg+xml" tabindex="-1" role="img" data="http://lb.gcconnex.ca//mod/gcconnex_theme/graphics/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="mts float-alt">
+                <a href="http://fxnion.free.fr/"><img src="http://lb.gcconnex.ca/mod/custom_index_widgets/images/fxnion_elgg_custom_index.gif" alt="Elgg Custom index by Fx Nion" title="Elgg Custom index by Fx Nion"/></a>
+                </div>-->
+            </div>
+
+        </footer>
+
+        <script src="http://lb.gcconnex.ca/mod/wet4/views/default/js/bootstrap.min.js"></script>
+        <script src=" https//gcconnex.gc.ca/mod/wet4/views/default/js/wet-boew.js "></script>
+
+
+    </div>
+    <script>
+require([
+    "mentions/autocomplete",
+    "wet4/validate",
+    "wet4/test",
+    "onboard_require",
+    "stream_wire",
+    "stream_newsfeed",
+    "multi_file_upload/fileinput"
+]);
+    </script>
+    <script type='text/javascript' id='analytics_ajax_result'>
+
+	$(document).ajaxSuccess(function(event, XMLHttpRequest, ajaxOptions) {
+
+		elgg.get('analytics/ajax_success', {
+			global: false,
+			success: function(data) {
+				if (data) {
+					var temp = document.createElement('script');
+					temp.setAttribute('type', 'text/javascript');
+					temp.innerHTML = data;
+
+					$('#analytics_ajax_result').after(temp);
+				}
+			}
+		});
+	});
+    </script>
+</body>
+</html>

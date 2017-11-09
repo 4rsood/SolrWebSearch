@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/MasterPages/MasterPageGCpedia-eng.master.cs" Inherits="MasterPages_MasterPageGCpedia_eng" %>
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>GCpedia</title>
+<script>document.documentElement.className=document.documentElement.className.replace(/(^|\s)client-nojs(\s|$)/,"$1client-js$2");</script>
+<script>window.RLQ=window.RLQ||[];window.RLQ.push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":1822361,"wgRevisionId":1822361,"wgArticleId":1,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Spotlight"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":1,"wgIsProbablyEditable":!1,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":!0,"wgULSAcceptLanguageList":["en-ca"],"wgULSCurrentAutonym":"English","wgWikiEditorEnabledModules":{"toolbar":!0,"dialogs":!1,"preview":!1,"publish":!1},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":!1,"usePageDescriptions":!1},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","fancytree_path":"/gcwiki/extensions/TreeAndMenu/fancytree","wgVisualEditorToolbarScrollOffset":0});mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.favorites.style","ext.uls.init","ext.uls.interface","ext.visualEditor.desktopArticleTarget.init","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="http://www.gcpedia.gc.ca/gcwiki/A.load.php,,qdebug==false,,alang==en,,amodules==ext.uls.nojs,,P7Cext.visualEditor.desktopArticleTarget.noscript,,P7Cmediawiki.legacy.commonPrint,,P2Cshared,,P7Cmediawiki.sectionAnchor,,P7Cmediawiki.skinning.interface,,P7Cskins.vector.styles,,aonly==styles,,askin==vector+extensions,,_TreeAndMenu,,_fancytree,,_fancytree.css+extensions,,_TreeAndMenu,,_suckerfish,,_suckerfish.css,Mcc.eojBlKQWMv.css.pagespeed.cf.XVq80bteVl.css"/>
+
+
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="http://www.gcpedia.gc.ca/gcwiki/A.load.php,qdebug=false,alang=en,amodules=site,aonly=styles,askin=vector.pagespeed.cf.RIQh3wU4MH.css"/>
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script async="" src="http://www.gcpedia.gc.ca/gcwiki/load.php,qdebug=false,alang=en,amodules=startup,aonly=scripts,askin=vector.pagespeed.jm.GiBL19xYaF.js"></script>
+<meta name="generator" content="MediaWiki 1.26.2"/>
+<link rel="shortcut icon" href="http://www.gcpedia.gc.ca/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="http://www.gcpedia.gc.ca/gcwiki/opensearch_desc.php" title="GCpedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://www.gcpedia.gc.ca/gcwiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="GCpedia Atom feed" href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("http://www.gcpedia.gc.ca/gcwiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+<link rel="stylesheet" href="http://www.gcpedia.gc.ca/gcwiki/skins/Vector/GCWeb/css/A.gcpedia.css+theme.css,Mcc.wlxbRD2in8.css.pagespeed.cf.jVex-kCLDu.css"/>
+			 
+			 <link href="http://www.gcpedia.gc.ca/gcwiki/skins/Vector/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page skin-vector action-view">
+	<header role="banner">
+	    <div id="app-brand">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-xs-7">
+                    <div class="app-name">
+                    <a href="http://www.gcpedia.gc.ca/wiki/Main_Page">
+                        <span><span class="bold-gc">GC</span>pedia</span>
+                    </a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-7 hidden-sm hidden-xs">
+                    <ul id="tool-link" class="pull-left list-unstyled mrgn-bttm-0">
+
+						<li class="pull-left tool-link">
+                        	<a href="http://gcdirectory-gcannuaire.gc.ca/en/GCD/?pgid=002">
+                            <span class="bold-gc">GC</span>directory</a>
+
+                    	</li>
+
+	                    <li class="pull-left tool-link">
+	                        <a href="http://intranet.canada.ca/index-eng.asp?utm_source=gcpedia&utm_medium=gctools-banner&utm_campaign=generic">
+	                        <span class="bold-gc">GC</span>intranet</a>
+	                        
+	                    </li>
+
+	                    <li class="pull-left tool-link">
+	                        <a href="http://gcconnex.gc.ca/">
+	                        <span class="bold-gc">GC</span>connex</a>
+	                        
+	                    </li>
+                        
+                        <li class="pull-left tool-link">
+	                        <a href="https://gccollab.ca/">
+	                        <span class="bold-gc">GC</span>collab</a>
+	                        
+	                    </li>
+	                    
+                    </ul>
+                </div>
+
+                <div id="wb-lng" class="visible-lg text-right col-sm-1">
+                	<div class="col-md-12">
+                		<ul class="list-inline margin-bottom-none">
+                			<li>
+                                <asp:Label ID="lblLang" runat="server"  Visible="true"></asp:Label>
+                            </li>
+                		</ul>
+                	</div>
+                </div>
+						<div class="col-sm-5 col-lg-3 col-md-4 col-xs-5 text-right"><section id="wb-srch" class="text-right">
+<h2>Search</h2>
+<form action="http://intranet.canada.ca/search-recherche/query-recherche-eng.aspx" method="get" name="cse-search-box" role="search" class="form-inline">
+<div class="form-group">
+<label for="wb-srch-q" class="wb-inv">Search website</label>
+<input id="search" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="21" maxlength="150" placeholder="Search GCTools">
+<datalist id="wb-srch-q-ac">
+<!--[if lte IE 9]><select><![endif]-->
+<!--[if lte IE 9]></select><![endif]-->
+</datalist>
+                <!-- hidden forms for federated search -->
+                <input type="hidden" name="a" value="s">
+                <input type="hidden" name="s" value="2">
+                <input type="hidden" name="chk3" value="True">
+</div>
+<div class="form-group submit">
+<button type="submit" id="wb-srch-sub" class="btn btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
+</div>
+</form>
+</section></div>
+
+		
+		<!--<form
+			action="/gcwiki/index.php"
+			role="search"
+			class="mw-portlet"
+			id="p-search"
+		>
+			<input type="hidden" name="title" value="Special:Search" />
+			<h3>
+				<label for="searchInput">Search</label>
+			</h3>
+			<input type="search" name="search" placeholder="Search GCpedia" title="Search GCpedia [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchGoButton" class="searchButton" />			<input type="hidden" name="title" value="Special:Search"/>
+		</form>-->
+		            </div>
+        </div>
+        
+    </div>
+</header>
+
+
+    <main role="main" property="mainContentOfPage" class="container">
+        <asp:ContentPlaceHolder id="MainContent" runat="server" enableviewstate="False" />
+    </main>
+
+
+    <div id="footer" role="contentinfo">
+        <ul id="footer-info">
+            <li id="footer-info-lastmod"> This page was last modified on 24 May 2017, at 13:53.</li>
+        </ul>
+        <ul id="footer-places">
+            <li id="footer-places-privacy"><a href="http://www.gcpedia.gc.ca/wiki/GCpedia:Privacy_notice" title="GCpedia:Privacy notice">Privacy policy</a></li>
+            <li id="footer-places-about"><a href="http://www.gcpedia.gc.ca/wiki/GCpedia:Project" title="GCpedia:Project">About GCpedia</a></li>
+            <li id="footer-places-disclaimer"><a href="http://www.gcpedia.gc.ca/wiki/GCpedia:Terms_and_conditions_of_use" title="GCpedia:Terms and conditions of use">Terms and conditions of use</a></li>
+            <li id="footer-places-mobileview"><a href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Main_Page&amp;setlang=en&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+        </ul>
+        <ul id="footer-icons" class="noprint">
+            <li id="footer-poweredbyico">
+                <a href="//www.mediawiki.org/"><img src="http://www.gcpedia.gc.ca/gcwiki/resources/assets/poweredby_mediawiki_88x31.png.pagespeed.ce.OMD2_ZKYRP.png" alt="Powered by MediaWiki" srcset="http://www.gcpedia.gc.ca/gcwiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, http://www.gcpedia.gc.ca/gcwiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a>
+            </li>
+        </ul>
+        <div style="clear:both"></div>
+        <!-- GC Info that will be at the bottom of the footer -->
+        <footer id="wb-info" class="visible-sm visible-md visible-lg wb-navcurr wb-navcurr-inited" role="contentinfo">
+            <div class="brand">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-6 visible-sm visible-xs tofpg">
+                            <a href="#content">Top of Page <span class="glyphicon glyphicon-chevron-up"></span></a>
+                        </div>
+                        <div class="col-xs-6 col-md-12 text-right">
+                            <object type="image/svg+xml" tabindex="-1" role="img" data="http://www.gcpedia.gc.ca/gcwiki/skins/Vector/GCWeb/assets/wmms-blk.svg" aria-label="Symbol of the Government of Canada"></object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>window.RLQ=window.RLQ||[];window.RLQ.push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["ext.fancytree","ext.suckerfish","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.favorites","ext.uls.pt","ext.visualEditor.targetLoader"]);});</script>
+        <script>
+//<![CDATA[
+var sajax_debug_mode=false;var canRefresh=null;var ShowEditorsCounting=false;var wgAjaxShowEditors={};wgAjaxShowEditors.refresh=function(){if(!canRefresh){return;}
+canRefresh=false;setTimeout('wgAjaxShowEditors.allowRefresh()',5000);var elEditorsList=document.getElementById('ajax-se-editors');if(wgUserName==null){wgUserName='';}
+mw.loader.using('mediawiki.api',function(){(new mw.Api()).get({action:'ashoweditors',articleId:wgArticleId,username:wgUserName,}).done(function(data){elEditorsList.innerHTML=data.ashoweditors;});});if(!ShowEditorsCounting){wgAjaxShowEditors.countup();}};wgAjaxShowEditors.countup=function(){ShowEditorsCounting=true;var elEditorsList=document.getElementById('ajax-se-editors');for(var i=0;i<elEditorsList.childNodes.length;i++){var item=elEditorsList.childNodes[i];if(item.nodeName=='SPAN'){var value=parseInt(item.innerHTML);value++;item.innerHTML=value;}}
+setTimeout("wgAjaxShowEditors.countup()",1000);};wgAjaxShowEditors.allowRefresh=function(){canRefresh=true;};var elEditors=document.getElementById('ajax-se');if(elEditors){elEditors.onclick=function(){wgAjaxShowEditors.refresh();};var elTextArea=document.getElementById('wpTextbox1');elTextArea.onkeypress=function(){wgAjaxShowEditors.refresh();};}
+wgAjaxShowEditors.allowRefresh();
+//]]></script>
+        <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-8119573-6','auto');ga('set','anonymizeIp',true);ga('send','pageview');</script>
+        <script>window.RLQ=window.RLQ||[];window.RLQ.push(function(){mw.config.set({"wgBackendResponseTime":639});});</script>		<!--<script src="/gcwiki/skins/Vector/GCWeb/js/jquery-2.2.0.min.js"></script>-->
+        <!--<script src="/gcwiki/skins/Vector/GCWeb/js/wet-boew.min.js"></script>-->
+    </div>
+</body>
+</html>
