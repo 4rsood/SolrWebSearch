@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SearchPagerControl.ascx.cs" Inherits="WebUserControls_SearchPagerControl" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SearchPagerControl.ascx.cs" Inherits="WebUserControls_SearchPagerControl" EnableViewState="false"  %>
 <script type = "text/javascript">
 
     function updateChkList(chk) {
@@ -19,7 +19,93 @@
 
     }
 
+    window.onload = function ()
+    {
+           if (sessionStorage.getItem('q') == "q") {
+                return;
+           }
+
+        var name = sessionStorage.getItem('q');
+        if (name !== null) $('#inputName').val(name);
+    }
+
+    window.onbeforeunload = function () {
+        sessionStorage.setItem("q", $('#inputName').val());
+        alert(name);
+    }
+
 </script>
+
+
+    <style>
+
+.pagination-ys {
+    /*display: inline-block;*/
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+ 
+.pagination-ys table > tbody > tr > td {
+    display: inline;
+    text-align:center;
+}
+ 
+.pagination-ys table > tbody > tr > td > a,
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #dd4814;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+}
+ 
+.pagination-ys table > tbody > tr > td > span {
+    position: relative;
+    float: left;
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;    
+    margin-left: -1px;
+    z-index: 2;
+    color: #aea79f;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+    cursor: default;
+}
+ 
+.pagination-ys table > tbody > tr > td:first-child > a,
+.pagination-ys table > tbody > tr > td:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+ 
+.pagination-ys table > tbody > tr > td:last-child > a,
+.pagination-ys table > tbody > tr > td:last-child > span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+ 
+.pagination-ys table > tbody > tr > td > a:hover,
+.pagination-ys table > tbody > tr > td > span:hover,
+.pagination-ys table > tbody > tr > td > a:focus,
+.pagination-ys table > tbody > tr > td > span:focus {
+    color: #97310e;
+    background-color: #eeeeee;
+    border-color: #dddddd;
+}
+
+.gvPager {
+    text-align:center;
+}
+
+    </style>
+
 <asp:Label ID="lblTitle" runat="server" Text="" EnableViewState="false" />
 
  <asp:Panel id="panelSearch" runat="server" enableviewstate="false">
@@ -32,31 +118,62 @@
                
                 
                    <div class="form-inline">
-                    <label class="wb-inv" for="q">Type one or more keywords</label>
+                    <label class="wb-inv" for="q"><span style="float:left;">
+                       
+                       </span>Type one or more keywords</label>
                     <asp:TextBox id="q" runat="server" class="form-control" MaxLength="1100" width="1075" title="<%$Resources:Resources, typeQuery%>"></asp:TextBox>    
-                    <button name="wb-srch-pol" class="btn btn-primary btn-small" id="wb-srch-pol" type="submit"><span class="glyphicon-search glyphicon"></span></button>
+                    <!-- send query button -->
+                       <button name="wb-srch-pol" class="btn btn-primary btn-small" id="wb-srch-pol" type="submit"><span class="glyphicon-search glyphicon"></span></button>
+                       <!-- new code -- send query button -->
+                               <asp:TextBox runat="server" Visible="false" ID="txtURL"></asp:TextBox>                      
                 </div>
-                <%-----------BASIC SEARCH FORM ----------%>    
+
                        
 		<asp:Label ID="lblEmptySearch" ToolTip="<%$Resources:Resources, errorYouMustEnterQuery %>" runat="server"></asp:Label>
 
+
+
+                       <asp:Panel id="Panel1" runat="server" enableviewstate="false">
+                <span style="float:right;padding-right:5px">
+
+                    <asp:Label ID="Label2" ToolTip="<%$Resources:Resources, refinesearch %>" runat="server"></asp:Label>
+                     <asp:HyperLink ID="HyperLink1" ToolTip="<%$Resources:Resources, advancedsearch %>" Visible="false" runat="server" Text="<%$Resources:Resources, advancedsearch %>">HyperLink</asp:HyperLink> 
+                    <br /> 
+                    <asp:Label ID="Label3" Text="<%$Resources:Resources, SortBy %>" Visible="false" runat="server"></asp:Label>
+                    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+							    
+                    <h3><asp:Label ID="Label4" Text="<%$Resources:Resources, filterResults %>" Visible="false" runat="server"></asp:Label></h3>
+             
+                </span> 
+            </asp:Panel>      
+
+
+
+
+
+
+
             <asp:Panel id="pnlBasicSearchLinks" runat="server" enableviewstate="false">
                 <span style="float:right;padding-right:5px">
+
                     <asp:Label ID="lblBasicSearchRefine" ToolTip="<%$Resources:Resources, refinesearch %>" runat="server"></asp:Label>
                      <asp:HyperLink ID="HyperLinkAdvanced" ToolTip="<%$Resources:Resources, advancedsearch %>" Visible="false" runat="server" Text="<%$Resources:Resources, advancedsearch %>">HyperLink</asp:HyperLink> 
                     <br /> 
                     <asp:Label ID="lblSortBy" Text="<%$Resources:Resources, SortBy %>" Visible="false" runat="server"></asp:Label>
                     <asp:PlaceHolder ID="PlaceHolderSort" runat="server"></asp:PlaceHolder>
-							    <h3><asp:Label ID="lblFilterResults1" Text="<%$Resources:Resources, filterResults %>" Visible="false" runat="server"></asp:Label></h3>
+							    
+                    <h3><asp:Label ID="lblFilterResults1" Text="<%$Resources:Resources, filterResults %>" Visible="false" runat="server"></asp:Label></h3>
+
+
                      <div class="panel panel-default">	
                                <header class="panel-heading">
 							        <h3 class="panel-title"><asp:Label ID="lblFilterResults" Text="<%$Resources:Resources, filterResults %>" runat="server"></asp:Label></h3>
 						        </header>                          
                             &nbsp;&nbsp;&nbsp;<h4 class="mrgn-tp-0"><asp:Label ID="Label1" Text=" <%$Resources:Resources, bysource %>" runat="server"></asp:Label></h4>                   
-                            &nbsp;&nbsp;<asp:CheckBox ID="chk1" Checked="false" Onclick="updateChkList(this)" Text="<%$Resources:Resources, all2 %>" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk1_CheckedChanged1" /><br />											
-                            &nbsp;&nbsp;<asp:CheckBox ID="chk2" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;GCintranet" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk2_CheckedChanged" /><br />												
-                            &nbsp;&nbsp;<asp:CheckBox ID="chk3" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;<%$Resources:Resources, gcpedia2 %>" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk3_CheckedChanged" /><br />																			
-                            &nbsp;&nbsp;<asp:CheckBox ID="chk4" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;GCconnex" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk4_CheckedChanged" />  
+                            &nbsp;&nbsp;<asp:CheckBox ID="chk1" Checked="false" Onclick="updateChkList(this)" Text="<%$Resources:Resources, all2 %>" ViewStateMode="Enabled" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk1_CheckedChanged1" /><br />											
+                            &nbsp;&nbsp;<asp:CheckBox ID="chk2" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;GCintranet" ViewStateMode="Enabled" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk2_CheckedChanged" /><br />												
+                            &nbsp;&nbsp;<asp:CheckBox ID="chk3" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;<%$Resources:Resources, gcpedia2 %>" ViewStateMode="Enabled" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk3_CheckedChanged" /><br />																			
+                            &nbsp;&nbsp;<asp:CheckBox ID="chk4" Checked="false" Onclick="updateChkList(this)" Text="&nbsp;GCconnex"  ViewStateMode="Enabled" EnableViewState="true" AutoPostBack="true" runat="server" OnCheckedChanged="chk4_CheckedChanged" />
                             <br /><br />   
                      
                            <asp:PlaceHolder ID="PlaceHolderGCPedia" Visible="false" runat="server">                                                                                         
@@ -110,13 +227,7 @@
                         <asp:Literal ID="Literal1" text="<%$Resources:Resources, typeQuery%>" Visible="false" runat="server" />
                     </label>                    
                 
-                <ul class="list-unstyled">
-                    <li class="mrgn-rght-md">
-                </ul>
-
-
-
-                    <br />
+               
                   
                     <span class="pull-left">                
                         <asp:Button id="sb" class="mrgn-rght-sm" runat="server" Visible="false" text="<%$Resources:Resources, searchnow %>" />
@@ -131,7 +242,12 @@
 
 <%------------- RESULTS   -------------------%>
 
- <asp:panel runat="server" id="panelResults" visible="false" enableviewstate="false">
+
+<asp:Panel runat="server" ID="panelResults2" Visible="false" EnableViewState="false">
+
+</asp:Panel>
+                
+ <asp:Panel runat="server" id="panelResults" visible="false" enableviewstate="false">
     
     <asp:PlaceHolder ID="PlaceHolderMessage" runat="server"></asp:PlaceHolder>
     <asp:PlaceHolder ID="PlaceHolderDidYouMean" Visible="false" runat="server"></asp:PlaceHolder>
@@ -145,7 +261,7 @@
         <asp:PlaceHolder ID="PlaceHolderBottomNavigation" runat="server"></asp:PlaceHolder>
 	
 
-                            </asp:panel>
+                            </asp:Panel>
                
 
 
